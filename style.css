@@ -1,0 +1,119 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: Roboto, sans-serif;
+	color: inherit;
+	text-decoration: none;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: black;
+}
+
+body::before {
+	z-index: -2;
+	position: absolute;
+	opacity: 0.5;
+	height: 100%;
+	width: 100%;
+	left: 1;
+	top: 1;
+	content: "";
+	background: url("hero.jpg");	
+	background-position: center;	
+}
+
+header {
+	padding: 20px 50px;
+}
+
+header img {
+	width: 170px;
+}
+
+main {
+	display: flex;
+	justify-content: center;
+}
+
+main > div {
+	padding: 60px;
+	width: 500px;
+	height: 600px;
+	background: rgba(0, 0, 1, 0.75);
+	border-radius: 5px;
+}
+
+main > div h2 {
+	color: white;
+	font-size: 3rem;
+	font-weight: 650;
+	margin: 0;
+}
+
+form {
+	margin-top: 25px;
+}
+
+form input[type="text"], [type="password"] {
+	border: 0;
+	border-radius: 8px;
+	padding: 20px 25px;
+	margin: 10px 0;
+	color: white;
+	width: 100%;
+	font-size: 15px;
+	font-weight: 450;
+	background: rgb(71, 71, 71);
+}
+
+form input[placeholder="Email atau nomor telepon"], [placeholder="Password"] {
+	font-size: 20px;
+}
+
+button {
+	color: white;
+	background: red;
+	padding: 20px 25px;
+	margin: 25px 0;
+	border: none;
+	border-radius: 5px;
+	width: 100%;
+	font-size: 18px;
+	font-weight: 550;
+}
+
+button + div {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	font-size: 12px;
+	color: grey;
+}
+
+button + div + div {
+	color: grey;
+	padding: 50px 0;
+}
+
+button:hover {
+	cursor: pointer;
+}
+
+p {
+	padding-bottom: 20px;
+}
+
+p a {
+	color: white;
+}
+
+small a {
+	color: blue;
+}
+
+a:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}
