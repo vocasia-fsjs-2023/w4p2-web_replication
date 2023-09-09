@@ -1,0 +1,143 @@
+* {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+  overflow-x: hidden;
+  background-image: url("/assets/images/hero-img.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  backdrop-filter: brightness(0.6);
+}
+
+a > img {
+  width: 12rem;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+  height: 2rem;
+  width: 100vh;
+  padding: 2rem;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  padding: 1rem 0;
+}
+
+main h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+main > div {
+  margin: 0;
+  width: 20rem;
+  background-color: rgba(0, 0, 0, 0.75);
+  display: flex;
+  color: white;
+  padding: 3rem;
+  border-radius: 0.2rem;
+  flex-direction: column;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  row-gap: 1rem;
+}
+
+form > div {
+  position: relative;
+  border-radius: 0.5rem;
+  background-color: #333;
+  padding: 0.1rem 1rem;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  height: 3rem;
+  padding: relative;
+  border-bottom: 0.15rem solid orange;
+}
+
+input {
+  display: block;
+  color: white;
+  border: none;
+  outline: none;
+  padding: 0.1rem;
+  background-color: transparent;
+}
+
+form > button {
+  margin-top: 1.5rem;
+  width: 100%;
+  height: 2.8rem;
+  font-weight: bold;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: #e50914;
+}
+
+a {
+  all: unset;
+  font-size: 0.8rem;
+}
+
+.additonal {
+  all: unset;
+  display: flex;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.additonal > div > label {
+  all: unset;
+  font-size: small;
+}
+
+.additonal > div {
+  display: flex;
+  align-items: center;
+  font-size: small;
+}
+
+.help {
+  all: unset;
+  color: #8c8c8c;
+}
+
+.help a {
+  color: white;
+  font-size: large;
+}
+
+.help > p {
+  margin: 1rem 0;
+}
+
+.help > small {
+  font-size: 0.8rem;
+  letter-spacing: 0;
+  line-height: 0.2rem;
+}
+
+.help > small > a {
+  display: inline;
+
+  font-size: small;
+  color: rgb(70, 70, 255);
+}
