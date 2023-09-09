@@ -6,6 +6,7 @@
 body {
   padding: 0;
   margin: 0;
+  height: 100vh;
   width: 100vw;
   overflow-x: hidden;
   background-image: url("/assets/images/hero-img.jpg");
@@ -16,7 +17,7 @@ body {
 }
 
 a > img {
-  width: 12rem;
+  width: 10rem;
 }
 
 header nav {
@@ -24,15 +25,14 @@ header nav {
   align-items: center;
   height: 2rem;
   width: 100vh;
-  padding: 2rem;
+  padding: 2rem 4rem;
 }
 
 main {
   display: flex;
   justify-content: center;
-  align-items: center;
   width: 100vw;
-  padding: 1rem 0;
+  padding: 2rem 0;
 }
 
 main h2 {
