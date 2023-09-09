@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding:0;
+    
+}
+body{
+    background: rgba(0,0,0,0.5);
+    background-blend-mode: darken;
+    background-image: url("assets/images/hero-img.jpg");
+}
+nav{
+    margin:20px;
+    padding: left 30px;
+}
+nav a img{
+    width:150px;
+}
+.form{
+    position: absolute;
+    left: 50%;
+    top:50%;
+    padding:60px;
+    width:420px;
+    background: rgba(0,0,0,0.75);
+    border-radius: 9px;
+    transform: translate(-50%, -50%);
+}
+.form h2{
+    color:#fff;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.form form{
+    margin:25px 0 65px;
+}
+form .login{
+    margin-bottom: 13px;
+    height:50px;
+    position: relative;
+}
+.login input{
+    height:100%;
+    width: 100%;
+    outline:none;
+    background: #333;
+    border:none;
+    color: #fff;
+    font-size: 1rem;
+    border-radius: 5px;
+    padding:0 20px;
+}
+.login label{
+    position: absolute;
+    top: 20%;
+    left:50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+    color: white;
+    font-size:1rem;
+}
+form button{
+    width:110%;
+    padding: 15px 0;
+    margin: 25px 0 10px;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    background: #e50914;
+    color: white;
+    font-weight: 500;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+form button:hover{
+    background: rgba(253, 29, 29, 0.5);
+}
+form .help{
+    display: flex;
+    justify-content: space-between;
+}
+:is(label, p, small , a){
+    color:#fff
+}
+form .help :where(label, a){
+    font-size: 1rem;
+}
+form .remember-me input{
+    margin-right: 5px;
+    accent-color: #333;
+    margin-bottom: 30px;
+}
+.form small{
+    display: block;
+    margin-top: 15px;
+
+}
+.form p a{
+    color: #fff;
+}
+.form small a{
+    color:rgba(28, 28, 219, 0.884);
+}
+.form a{
+    text-decoration: none;
+}
+.form a:hover{
+    text-align: underline;
+}
