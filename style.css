@@ -1,0 +1,104 @@
+style.css netflix
+
+style css netflix
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background: rgba(0, 0, 0, 0.5) url(https://github.com/vocasia-fsjs-2023/w4p2-web_replication/blob/main/assets/images/hero-img.jpg?raw=true);
+    background-blend-mode: darken;
+}
+
+
+.container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    border-radius: 4px;
+    padding: 40px 60px 150px 60px;
+    width: 450px;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, .75);
+}
+
+.container h2 {
+    color: #fff;
+    font-size: 40px;
+    margin-top: 5px;
+}
+
+
+form .login {
+    height: 50px;
+    position: relative;
+    margin-bottom: 16px;
+}
+
+.login input {
+    height: 100%;
+    width: 100%;
+    background: #333;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 20px;
+}
+
+button {
+    width: 100%;
+    padding: 16px 0;
+    font-size: 20px;
+    background: #e50914;
+    color: #fff;
+    font-weight: 500;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    margin: 25px 0 10px;
+}
+
+button :hover {
+    color:firebrick;
+}
+
+.label {
+    color: rgb(125, 119, 119);
+}
+
+.form_remember {
+    display: flex;
+    color: rgb(125, 119, 119);
+    text-decoration: none;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content {
+    position: absolute;
+    margin-top: 9px;
+    font-size: 10px;
+    margin-left: 10px;
+}
+
+.content p{
+    color: rgb(125, 119, 119);
+}
+
+p {
+    color: rgb(125, 119, 119);
+    font-size: 12px;
+}
+
+small {
+    color: rgb(125, 119, 119);
+}
+
+nav {
+    margin-left: 20px;
+    margin-top: 20px;
+}
